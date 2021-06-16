@@ -6,3 +6,27 @@
     justify-content: center;
     align-items: center;
 }
+
+.container > .row:last-of-type > *[class*='col-']{
+    padding: 5px;
+}
+
+.container > .row > *[class*='col-'] > .row:last-of-type > *[class*='col-']{
+    background-color: rgb(221, 141, 154);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+    .container > .row > *[class*='col-'] > .row:last-of-type > *[class*='col-']{
+        height: 95px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container > .row > *[class*='col-'] > .row:last-of-type > *[class*='col-']{
+        height: 190px;
+    }
+}
