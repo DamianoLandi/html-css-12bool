@@ -1,0 +1,9 @@
+.container > .row > *[class*='col-']{
+    height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
