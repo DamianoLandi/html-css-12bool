@@ -19,10 +19,8 @@
     align-items: center;
 }
 
-@media screen and (min-width: 576px) {
-    .container > .row > *[class*='col-'] > .row:last-of-type > *[class*='col-']{
-        height: 95px;
-    }
+.container > .row > *[class*='col-'] > .row:last-of-type > *[class*='col-']{
+    height: 95px;
 }
 
 @media screen and (min-width: 992px){
@@ -30,3 +28,4 @@
         height: 190px;
     }
 }
+
